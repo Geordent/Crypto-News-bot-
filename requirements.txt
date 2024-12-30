@@ -1,7 +1,7 @@
 python-dotenv==1.0.0
 vaderSentiment==3.3.2
-pycoingecko==3.1.0
-python-telegram-bot==13.15
-feedparser==6.0.10
-requests==2.31.0
+pycoingecko==2.3.0
+python-telegram-bot==20.0
+feedparser==6.0.8
+requests==2.26.0
 six==1.16.0
