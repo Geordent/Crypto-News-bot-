@@ -30,7 +30,7 @@ logging.basicConfig(level=logging.INFO, format=LOG_FORMAT)
 logger = logging.getLogger("CryptoNewsBot")
 
 # Загрузка переменных окружения из .env (Укажите свой путь)
-load_dotenv("/storage/6465-3434/PythonBots/Cryptonewsbot/.env")
+load_dotenv()
 
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 CRYPTOPANIC_API_KEY = os.getenv("CRYPTOPANIC_API_KEY", "")
